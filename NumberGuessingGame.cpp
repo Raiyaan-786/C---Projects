@@ -13,7 +13,7 @@ int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     cout.tie(NULL);
-    int num = 34 ; 
+    int num = rand() % 100; 
     int x ; 
     cout<<"Guess the number between 1 to 100"<<endl;
     cin>>x;
