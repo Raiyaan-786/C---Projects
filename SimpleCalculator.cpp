@@ -31,12 +31,20 @@ int mul(int x, int y){
     return x * y ;
 }
 int divi(int x, int y){
+    if(y == 0){
+        cout<<"Invalid Input"<<endl;
+        return -1;
+    }
     return x / y ;
 }
 int power(int x, int y){
     return pow(x,y) ;
 }
 int mod(int x, int y){
+    if(y == 0){
+        cout<<"Invalid Input"<<endl;
+        return -1 ;
+    }
     return x % y ;
 }
 
